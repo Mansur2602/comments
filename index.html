@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статья с комментариями</title>
+    <style>
+        body {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        h1 {
+            color: #333;
+        }
+        .comment {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+
+<h1>Заголовок статьи</h1>
+<p>Напиши что-нибудь...</p>
+
+<h2>Комментарии</h2>
+<div class="comments-container"></div>
+
+<h3>Добавить комментарий</h3>
+<form class="comment-form">
+    <input type="text" class="username" placeholder="Ваше имя" required>
+    <textarea class="comment-text" placeholder="Ваш комментарий" required></textarea>
+    <button type="submit">Добавить комментарий</button>
+</form>
+<script src="./main.js"></script>
+
+</body>
+</html>
